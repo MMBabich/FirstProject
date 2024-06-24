@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+  }
+.avatar {
+    width: 100%;
+}   
+.container {
+    width: 25%
+}
