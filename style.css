@@ -1,8 +1,27 @@
- body {
+body {
     font-family: "Playwrite NG Modern", cursive;
     font-optical-sizing: auto;
     font-style: normal;
   }
- * {
-    box-sizing: border-box;
-  }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+.footer-img {
+  height: 100px;
+  margin-left: 100px;
+}
+footer p {
+  margin-left: 45%;
+}
+footer div{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+footer div section{
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
