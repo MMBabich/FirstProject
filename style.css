@@ -7,6 +7,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    border-top: solid black;
    }
 .footer-img {
   height: 100px;
