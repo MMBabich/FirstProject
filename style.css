@@ -1,14 +1,14 @@
 body {
-    font-family: "Playwrite NG Modern", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-top: solid black;
-   }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: solid black;
+}
 .footer-img {
   height: 100px;
   margin-left: 100px;
@@ -16,13 +16,33 @@ footer {
 footer p {
   margin-left: 45%;
 }
-footer div{
+footer div {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
-footer div div{
+footer div div {
   width: 50%;
   height: 50%;
-  margin: 10px;
+  padding: 10px;
+}
+header {
+  border-bottom: solid black;
+  position: absolute;
+  bottom: 100;
+  width: 100%;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+nav li {
+  padding-left: 100px;
+}
+nav a {
+  color: black;
 }
