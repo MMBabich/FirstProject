@@ -28,8 +28,6 @@ footer div div {
 }
 header {
   border-bottom: solid black;
-  position: absolute;
-  bottom: 100;
   width: 100%;
   background-color: white;
 }
